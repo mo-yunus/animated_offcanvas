@@ -71,7 +71,7 @@ body {
     z-index: 2;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 5px 3px 10px #0d0b0b;
+    box-shadow: 0px 0px 15px #0d0b0b;
 }
 
 .ham-btn span {
@@ -106,6 +106,10 @@ body.activeNav .content {
     transform: rotate(-32deg);
 }
 */
+
+body.activeNav .ham-btn {
+    box-shadow: 0 0 10px #eee;
+}
 
 
 body.activeNav .ham-btn span:nth-child(1) {
